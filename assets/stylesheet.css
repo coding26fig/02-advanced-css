@@ -30,6 +30,7 @@ nav h3{
     padding: 14px 32px;
     width: 10%;
     float: right;   
+    font-weight: 700;
 
 }
 .button3 {
@@ -39,6 +40,7 @@ nav h3{
     font-size: 20px;
     padding: 14px 32px;
     width: 10%;
+    font-weight: 700;
 
 }
 
@@ -56,21 +58,28 @@ main {
  border: 1px solid;
  
 }
-#content1 {
+#resume {
     grid-area: content1;
 
 }
-#content2 {
+#portfolio {
     grid-area: content2;
 
 }
 
-#content3 {
+img {
+    
+    width: 50%;
+    height: 50%;
+}
+
+#contactme {
     grid-area: content3;
 }
 
 footer {
     grid-area: footer;
     text-align: center;
+    text-indent: 70px;
 
 }

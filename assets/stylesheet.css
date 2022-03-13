@@ -1,0 +1,10 @@
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 02fr 1.5 fr 1.2fr 0.8 fr;
+    background-image: url(/images/image.jpg);
+    background-size: cover;
+    grid-template-areas: "nav nav nav nav";
+}

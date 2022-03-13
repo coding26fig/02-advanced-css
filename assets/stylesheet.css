@@ -1,10 +1,76 @@
 
 .container {
     display: grid;
-    height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 02fr 1.5 fr 1.2fr 0.8 fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
     background-image: url(/images/image.jpg);
     background-size: cover;
-    grid-template-areas: "nav nav nav nav";
+    height: 100vh;
+    grid-template-areas: "nav nav nav nav"
+                         "sidebar main main main"
+                         "sidebar content1 content2 content3"
+                         "sidebar footer footer footer";                  
+            
+}
+nav h1 {
+    text-align:center ;
+    font-size: 80px;
+    padding-left: 5px;
+}
+nav h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+.button2 {
+    background-image: url(/images/image.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 14px 32px;
+    width: 10%;
+    float: right;   
+
+}
+.button3 {
+    background-image: url(/images/image.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 14px 32px;
+    width: 10%;
+
+}
+
+nav { 
+ grid-area: nav;
+}
+main {
+    grid-area: main;
+    text-align: center;
+   
+
+}
+#AboutMe {
+ grid-area: sidebar;
+ border: 1px solid;
+ 
+}
+#content1 {
+    grid-area: content1;
+
+}
+#content2 {
+    grid-area: content2;
+
+}
+
+#content3 {
+    grid-area: content3;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+
 }

@@ -1,17 +1,9 @@
-* {
-
-}
-   
-
-
 
  header {
      text-align: center;
      font-weight: 700px;
      font-size: xx-large;
      
- 
-
  }  
  
  #upcoming {
@@ -21,10 +13,8 @@
      
  }
  
- #selfie {
-     background: none;
- }
 
+/* Image and styling for buttons */
  .button2{
     padding: 34px 68px;
     margin-top: 100px;
@@ -41,7 +31,8 @@ button{
     font-size: 20px;
     font-weight: 700px;
 }
-    
+
+/* Flex box in use and styling */
 .container1{
    display:inline-flex;
     flex-direction: column;
@@ -56,15 +47,18 @@ h3{
 }
 
 .box1 {
- min-height: 100px;
- }
+    min-height: 100px;
 
+/*applied flexbox again */
+
+}
 .box2 {
     display: flex;
     flex-direction: row;
     min-height: 200px;
 
 }
+/*styling portfolio boxes*/
 .Projects #coming {
     min-height: 100px;
     padding: 70px 150px;
@@ -74,45 +68,40 @@ h3{
     border: 2px solid black;
 }
 
-
-
 .box3 {
 min-height: 200px;
-
-
 }
-
 
 .box4 {
     min-height: 100px;
-    
-
 }
+
 .box5{
     min-height: 100px;
-    
-}
+ }
 
 .box6{
     min-height: 100px;
-    
-}
-ul{
+ }
+
+ ul{
     font-size: 40px;
 }
+/*centered footer*/
 footer{
     text-align: center;
      font-weight: 700px;
      font-size: large;
     
 }
+/*buttons and boxes should adjust from rows to columns in viewport*/
+
 @media screen and (max-width: 700px) {
     .button2, 
     .box2,
     .box1 {
             flex-direction: column;
     }
-
 }
 
 
@@ -120,115 +109,3 @@ footer{
 
 
 
-/*.container {
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
-    background-image: url(/images/image.jpg);
-    background-size: cover;
-    height: 100vh;
-    grid-template-areas: "nav nav nav nav"
-                         "sidebar main main main"
-                         "sidebar content1 content2 content3"
-                         "sidebar footer footer footer";        
-            
-}
-
-nav h1 {
-    text-align:center ;
-    font-size: 80px;
-    padding-left: 5px;
-}
-nav h3{
-    text-align: center;
-    font-size: 40px;
-}
-
-.button2 {
-    background-image: url(/images/image.jpg);
-    background-size: cover;
-    border-radius: 4px;
-    font-size: 20px;
-    padding: 14px 32px;
-    width: 10%;
-    float: right;   
-    font-weight: 700;
-
-}
-.button3 {
-    background-image: url(/images/image.jpg);
-    background-size: cover;
-    border-radius: 4px;
-    font-size: 20px;
-    padding: 14px 32px;
-    width: 10%;
-    font-weight: 700;
-
-}
-
-nav { 
- grid-area: nav;
-}
-main {
-    grid-area: main;
-    text-align: center;
-   
-
-}
-#AboutMe {
-   grid-area: sidebar;
-   border: 1px solid;
-   text-align: center;
-   padding: 10px;
- 
-}
-#resume {
-    grid-area: content1;
-    border: 2px solid;
-    text-align: center;
-    padding: 10px;
-    background-image: url(/images/image.jpg);
-    background-size: cover;
-    border-radius: 4px;
-    font-size: 20px;
-
-}
-#portfolio {
-    grid-area: content2;
-    border: 2px solid;
-    text-align: center;
-    padding: 10px;
-    background-image: url(/images/image.jpg);
-    background-size: cover;
-    border-radius: 4px;
-    font-size: 20px;
-
-}
-
-img {
-    
-    width: 50%;
-    height: 50%;
-}
-
-#contactme {
-    grid-area: content3;
-    border: 2px solid;
-    text-align: center;
-    padding: 10px;
-    background-image: url(/images/image.jpg);
-    background-size: cover;
-    border-radius: 4px;
-    font-size: 20px;
-}
-    
-footer {
-    grid-area: footer;
-    text-align: center;
-    text-indent: 70px;
-}
-
-@media screen and (max-width: 768px) {
-    .button3, 
-    .button2 {
-*/

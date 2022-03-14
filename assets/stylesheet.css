@@ -1,6 +1,104 @@
+* {
+    
+    background-repeat: no-repeat;
 
-.container {
-    display: grid;
+}
+
+ header {
+     text-align: center;
+     font-weight: 700px;
+     font-size: xx-large;
+ 
+
+ }  
+ 
+ #upcoming {
+     text-align: center;
+     border: 3px solid black;
+     position: sticky;
+     
+ }
+ 
+ #selfie {
+     background: none;
+ }
+
+ .button2{
+    padding: 14px 32px;
+    margin-top: 100px;
+ }
+
+.button3{
+    padding: 14px 32px;
+
+}
+
+button{
+    padding: 22px 44px;
+}
+.container1{
+   display:inline-flex;
+    flex-direction: column;
+   
+}
+
+.box1 {
+ min-height: 100px;
+ 
+ 
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+
+}
+.Projects #coming {
+    min-height: 100px;
+    padding: 70px 150px;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border: 2px solid black;
+}
+
+
+
+}
+
+.box3 {
+min-height: 200px;
+
+}
+
+
+.box4 {
+    min-height: 100px;
+    
+
+}
+.box5{
+    min-height: 100px;
+    
+}
+
+.box6{
+    min-height: 100px;
+    
+}
+ul{
+    font-size: 40px;
+}
+footer{
+    text-align: center;
+     font-weight: 700px;
+     font-size: large;
+
+}
+
+/*.container {
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
     background-image: url(/images/image.jpg);
@@ -9,9 +107,10 @@
     grid-template-areas: "nav nav nav nav"
                          "sidebar main main main"
                          "sidebar content1 content2 content3"
-                         "sidebar footer footer footer";                  
+                         "sidebar footer footer footer";        
             
 }
+
 nav h1 {
     text-align:center ;
     font-size: 80px;
@@ -54,16 +153,32 @@ main {
 
 }
 #AboutMe {
- grid-area: sidebar;
- border: 1px solid;
+   grid-area: sidebar;
+   border: 1px solid;
+   text-align: center;
+   padding: 10px;
  
 }
 #resume {
     grid-area: content1;
+    border: 2px solid;
+    text-align: center;
+    padding: 10px;
+    background-image: url(/images/image.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    font-size: 20px;
 
 }
 #portfolio {
     grid-area: content2;
+    border: 2px solid;
+    text-align: center;
+    padding: 10px;
+    background-image: url(/images/image.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    font-size: 20px;
 
 }
 
@@ -75,11 +190,22 @@ img {
 
 #contactme {
     grid-area: content3;
+    border: 2px solid;
+    text-align: center;
+    padding: 10px;
+    background-image: url(/images/image.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    font-size: 20px;
 }
-
+    
 footer {
     grid-area: footer;
     text-align: center;
     text-indent: 70px;
-
 }
+
+@media screen and (max-width: 768px) {
+    .button3, 
+    .button2 {
+*/

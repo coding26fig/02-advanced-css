@@ -1,8 +1,12 @@
 body {
-    background-image: url(../images/image.jpg);
+    background-image: url("../images/image.jpg");
     background-size: cover;
 }
 
+.Projects{
+    height: 70px;
+    width: 150px;
+}
 
  header {
      text-align: center;
@@ -29,7 +33,7 @@ body {
 
 button{
    
-    background-image: url(../images/image.jpg);
+    background-image: url("../images/image.jpg");
     background-size: cover;
     padding: 34px 68px;
     margin-top: 100px;
@@ -64,9 +68,9 @@ h3{
 
 }
 /*styling portfolio boxes*/
-.Projects #coming {
+.coming {
     min-height: 100px;
-    padding: 70px 150px;
+    padding: 7px 15px;
     width: 50px;
     height: 50px;
     margin: 0 5px;

@@ -7,6 +7,7 @@ body {
 .Projects{
     height: 70px;
     width: 150px;
+    justify-content: space-between;
 }
 
  header {
@@ -20,12 +21,7 @@ body {
      text-align: center;
      border: 3px solid black;
      position: sticky;
-     
- }
- .coming {
-     max-height: 150px;
-     max-width: 150px;
- }
+}
  
 
 /* Image and styling for buttons */
@@ -37,23 +33,27 @@ body {
    
  }
 
-button{
+button {
    
     background-image: url("../images/image.jpg");
     background-size: cover;
     padding: 34px 68px;
-    margin-top: 100px;
     font-size: 20px;
     font-weight: 700px;
+    
    
+}
+/*hoving over all buttons*/
+button:hover {
+    transform: scale(1.15);
 }
 
 /* Flex box in use and styling */
 .container1{
    display:inline-flex;
     flex-direction: column;
-   
 }
+
 p{
     font-size: 30px;
 }
@@ -72,14 +72,15 @@ h3{
     display: flex;
     flex-direction: row;
     min-height: 200px;
-
+    
 }
+
 /*styling portfolio boxes*/
 .coming {
     min-height: 100px;
     padding: 7px 15px;
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
     margin: 0 5px;
     
 }

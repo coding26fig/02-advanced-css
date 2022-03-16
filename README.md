@@ -14,7 +14,7 @@ https://coding26fig.github.io/02-advanced-css-professional-portfolio/
 1. HTML
 2. CSS
 
-## Copyright
+
 
 
 

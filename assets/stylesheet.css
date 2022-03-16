@@ -46,7 +46,8 @@ button {
 /*hoving over all buttons*/
 button:hover {
     transform: scale(1.15);
-}
+    opacity: 0.5;
+  }
 
 /* Flex box in use and styling */
 .container1{

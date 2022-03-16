@@ -1,6 +1,7 @@
 body {
     background-image: url("../images/image.jpg");
     background-size: cover;
+   
 }
 
 .Projects{
@@ -33,7 +34,7 @@ body {
     margin-top: 100px;
     font-size: 20px;
     font-weight: 700px;
-    text-decoration: none;
+   
  }
 
 button{
@@ -111,11 +112,12 @@ footer{
 }
 /*buttons and boxes should adjust from rows to columns in viewport*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .button2, 
     .box2,
-    .box1 {
-            flex-direction: column;
+    #me,
+    .container1{
+               flex-direction: column;
     }
 }
 

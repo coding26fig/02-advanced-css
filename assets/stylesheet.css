@@ -43,6 +43,12 @@ button {
     
    
 }
+.project1{
+    background-size: contain;
+    padding: 34px 68px;
+    font-size: 20px;
+    font-weight: 700px;
+}
 /*hoving over all buttons*/
 button:hover {
     transform: scale(1.15);
